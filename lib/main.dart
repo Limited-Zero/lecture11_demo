@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'login.dart';
 import 'thirdpage.dart';
 import 'package:go_router/go_router.dart';
 
@@ -90,23 +89,3 @@ class SecondPage extends StatelessWidget {
       )
   );
 }
-
-// class ThirdPage extends StatelessWidget {
-//   const ThirdPage({Key? key}) : super(key: key);
-//
-//   @override
-//   Widget build(BuildContext context) => Scaffold(
-//       appBar: AppBar(title: const Text(App.title3)),
-//       body: Center(
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: <Widget>[
-//             ElevatedButton(
-//                 onPressed: () => context.go('/'),
-//                 child: const Text('Go to First Page')
-//             ),
-//           ],
-//         ),
-//       )
-//   );
-// }
